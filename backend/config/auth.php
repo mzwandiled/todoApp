@@ -42,7 +42,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport', // use passport  tokenquard for authentication
             'provider' => 'users',
             'hash' => false,
         ],
